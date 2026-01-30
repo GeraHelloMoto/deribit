@@ -1,0 +1,30 @@
+# FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg[binary]==3.1.18
+
+# HTTP Client (Требование ТЗ)
+aiohttp==3.9.1
+
+# HTTP для тестов
+httpx==0.25.2
+requests==2.32.3
+
+# Task scheduling (Требование ТЗ)
+celery==5.3.4
+redis==5.0.1
+
+# Environment
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development
+black==23.11.0
+flake8==6.1.0
